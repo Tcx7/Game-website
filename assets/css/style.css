@@ -1,0 +1,108 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.bodyContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+  overflow: hidden;
+}
+
+.header::after {
+  content: "";
+  clear: both;
+  display: table;
+  z-index: 0;
+}
+
+.topbar {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.textbox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.searchbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 32%;
+}
+.searching {
+  display: block;
+}
+
+.content-container {
+  width: 100%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+}
+
+.genreBar {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.genreBar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.games {
+  height: 85%;
+  width: 100%;
+}
+
+.first-row-game {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.second-row-game {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.fa-magnifying-glass {
+  height: 50px;
+  width: 50px;
+}
