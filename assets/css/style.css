@@ -6,6 +6,10 @@ body {
   display: block;
   background-color: rgb(29, 29, 29);
 }
+h3 {
+  color: white;
+  margin: 1%;
+}
 
 .bodyContainer {
   height: 100%;
@@ -42,6 +46,9 @@ body {
   display: flex;
   overflow: hidden;
   align-items: center;
+}
+.logo:hover {
+  cursor: pointer;
 }
 
 .textbox {
@@ -83,6 +90,13 @@ body {
   margin-top: 35%;
   width: 100%;
   height: 35%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.topright:hover {
+  cursor: pointer;
 }
 
 .registerlogin {
@@ -109,9 +123,11 @@ body {
 .footer {
   width: 100%;
   height: 13%;
+  background-color: rgb(39, 38, 36);
 }
 
 .genreBar {
+  margin: 0.5% 0%;
   height: 15%;
   width: 100%;
   display: flex;
@@ -130,10 +146,12 @@ body {
 .genre-img {
   width: 100%;
   background-color: gray;
-  padding: 1px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 1px;
+  /* box-shadow: 1px; */
+  padding: 1px;
+  border: 1px;
+  border-style: solid;
 }
 .col-6 {
   display: flex;
@@ -143,6 +161,8 @@ body {
 
 .col-1:hover {
   cursor: pointer;
+  color: rgb(255, 217, 0);
+  border-color: rgb(255, 217, 0);
 }
 
 .genreBar::after {
@@ -152,32 +172,65 @@ body {
 }
 
 .games {
-  height: 85%;
+  height: 65%;
   width: 100%;
 }
 
 .first-row-game {
-  height: 50%;
+  height: 45%;
   width: 100%;
   margin: 0;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 1%;
 }
+
+/* .first-row-game::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
 
 .second-row-game {
-  height: 50%;
+  height: 45%;
   width: 100%;
   margin: 0;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 1%;
 }
-.fa-magnifying-glass {
+/* .fa-magnifying-glass {
   height: 50px;
   width: 50px;
+} */
+
+.fa-search:hover {
+  cursor: pointer;
 }
 
-/* .addwidth {
-  width: 1%;
-} */
+.game1 {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.game-container {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  height: 80%;
+  width: 100%;
+}
+
+.game-name {
+  /* margin-top: -12px; */
+  height: 20%;
+  width: 100%;
+  background-color: rgb(54, 54, 54);
+}
