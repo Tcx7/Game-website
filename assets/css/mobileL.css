@@ -10,7 +10,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   .first-row-game {
     display: flex;
     justify-content: center;
@@ -23,9 +23,9 @@
     display: table;
     overflow: hidden;
   }
-}
+} */
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   .second-row-game {
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
     display: table;
     overflow: hidden;
   }
-}
+} */
 
 @media only screen and (max-width: 425px) {
   .img-css {
