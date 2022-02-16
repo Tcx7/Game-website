@@ -2,6 +2,17 @@
   .block-A {
     display: none;
   }
+
+  .games {
+    height: 100%;
+  }
+  .content-container {
+    height: 87%;
+  }
+
+  .img {
+    height: 60%;
+  }
 }
 
 /* body color */
