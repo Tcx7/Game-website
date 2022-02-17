@@ -1,6 +1,19 @@
-@media only screen and (max-width: 768px) {
-  .block-A {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .bodyContainer {
+    height: fit-content;
+  }
+
+  .genreBar {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+  }
+
+  .block-topright {
     display: none;
+  }
+  .genre {
+    width: 17%;
   }
 
   .games {
@@ -9,15 +22,15 @@
   .content-container {
     height: 87%;
   }
-
-  .img {
-    height: 60%;
+  .mobile-content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }
 }
 
-/* body color */
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: red;
+@media only screen and (height: 768px) and (width: 631px) {
+  .genre {
+    width: 22%;
   }
 }
