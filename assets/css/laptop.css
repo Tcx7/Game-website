@@ -1,3 +1,35 @@
 /* use col-lg-# */
 @media only screen and (min-width: 769px) and (max-width: 1439px) {
+  .header {
+    height: 10%;
+  }
+  .logo-img {
+    width: 100%;
+  }
+  .genre {
+    width: 14.5%;
+  }
+  .genreBar {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+  }
+  .games {
+    height: 87%;
+  }
+  .first-row-game {
+    height: 29%;
+    overflow: hidden;
+  }
+  .second-row-game {
+    height: 29%;
+    justify-content: space-evenly;
+  }
+  .game1 {
+    margin-bottom: 1%;
+  }
+  .footer {
+    display: none;
+  }
 }
