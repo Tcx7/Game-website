@@ -158,7 +158,18 @@ h3 {
   align-items: center;
 }
 
-.col-1:hover {
+.game1:hover {
+  cursor: pointer;
+  color: rgb(255, 217, 0);
+  border-color: rgb(255, 217, 0);
+}
+
+.genre-img:hover {
+  cursor: pointer;
+  color: rgb(255, 217, 0);
+  border-color: rgb(255, 217, 0);
+}
+.block-topright:hover {
   cursor: pointer;
   color: rgb(255, 217, 0);
   border-color: rgb(255, 217, 0);
